@@ -27,6 +27,9 @@ sudo hostnamectl set-hostname --pretty "Miguel's Workstation"
 echo "Updating system..."
 sudo dnf update -y
 
+sudo dnf -y install dnf-plugins-core
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+
 # Install common packages
 echo "Installing common packages..."
 install_package "wget"
