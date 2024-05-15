@@ -39,7 +39,7 @@ install_package "python3"
 install_package "python3-pip"
 
 # List of additional applications
-LIST_OF_APPS="firefox bitwarden fish lutris wine winetricks gamescope steam docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
+LIST_OF_APPS="firefox bitwarden kate fish lutris wine winetricks gamescope steam docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
 
 # Install additional applications
 echo "Installing additional applications..."
